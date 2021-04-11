@@ -1,4 +1,4 @@
-gsap.fromTo(".first", { x: 1, opacity: "0" }, { duration: 6, y: 100, opacity: "1" });
+gsap.fromTo(".first", { x: 1, opacity: "0" }, { duration: 6, rotate: 360, borderRadius: "50%", y: 100, opacity: "1" });
 
 gsap.to(".second", { duration: 2, y: 200 });
 
